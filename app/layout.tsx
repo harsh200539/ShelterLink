@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import './globals.css';export const metadata:Metadata={title:"ShelterLink",description:"Match consented, pseudonymous cases to compatible shelter capacity.",icons:{icon:'/favicon.svg'}};export default function Layout({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}
